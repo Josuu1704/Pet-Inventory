@@ -19,4 +19,17 @@ tk.Label(ventana, text="Animal").pack()
 entrada_animal = tk.Entry(ventana)
 entrada_animal.pack()
 
+tk.Label(ventana, text="Categoria").pack()
+entrada_categoria = tk.Entry(ventana)
+entrada_categoria.pack()
+
+tk.Label(ventana, text="Stock").pack()
+entrada_stock = tk.Entry(ventana)
+entrada_stock.pack()
+
+tk.Label(ventana, text="Precio").pack()
+entrada_precio = tk.Entry(ventana)
+entrada_precio.pack()
+
+
 ventana.mainloop()
